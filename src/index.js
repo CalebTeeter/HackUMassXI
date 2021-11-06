@@ -21,7 +21,7 @@ function AddPersonForm(props) {
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" 
-        placeholder="Add new contact" 
+        placeholder="Post a new question" 
         onChange={handleChange} 
         value={person} />
       <button type="submit">Add</button>
@@ -32,19 +32,19 @@ function AddPersonForm(props) {
 function PeopleList(props) {
   const [showbox, setShowbox] = useState(false);
   const arr = props.data;
-  
+
   function swap() {
     setShowbox(!showbox);
   }
 
   const listItems = arr.map((val, index) =>
     <li key={index}
-    onClick={swap}
-    >{val}
+    
+    ><b onClick={swap}> > {val}</b>
     <p></p>
-    {showbox && <input
+    {(showbox) && <input
       type = "text"
-      placeholder="Add new contact" 
+      placeholder="Respond to the question" 
     />}
     </li>
     
@@ -66,7 +66,7 @@ function ContactManager(props) {
     </div>
   );
 }
-const contacts = ["James Smith", "Thomas Anderson", "Bruce Wayne"];
+const contacts = ["Example Question. Post your own above!"];
 
 ReactDOM.render(
   <ContactManager data={contacts} />,
