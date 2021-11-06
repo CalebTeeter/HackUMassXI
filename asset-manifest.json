@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HackUMassXI/static/css/main.265e9c55.chunk.css",
-    "main.js": "/HackUMassXI/static/js/main.cfec80f8.chunk.js",
-    "main.js.map": "/HackUMassXI/static/js/main.cfec80f8.chunk.js.map",
+    "main.js": "/HackUMassXI/static/js/main.f29befa8.chunk.js",
+    "main.js.map": "/HackUMassXI/static/js/main.f29befa8.chunk.js.map",
     "runtime-main.js": "/HackUMassXI/static/js/runtime-main.912d1f39.js",
     "runtime-main.js.map": "/HackUMassXI/static/js/runtime-main.912d1f39.js.map",
     "static/js/2.1471217c.chunk.js": "/HackUMassXI/static/js/2.1471217c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.912d1f39.js",
     "static/js/2.1471217c.chunk.js",
     "static/css/main.265e9c55.chunk.css",
-    "static/js/main.cfec80f8.chunk.js"
+    "static/js/main.f29befa8.chunk.js"
   ]
 }
