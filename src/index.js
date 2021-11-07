@@ -2,7 +2,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import React, { useState } from 'react';
-import react from 'react';
 
 function AddPersonForm(props) {
   const [ person, setPerson ] = useState('');
@@ -39,7 +38,6 @@ function PeopleList(props) {
 
   const listItems = arr.map((val, index) =>
     <li key={index}
-    
     ><b onClick={swap}> > {val}</b>
     <p></p>
     {(showbox) && <input
@@ -64,12 +62,22 @@ function ContactManager(props) {
       <AddPersonForm handleSubmit={addPerson} />
       <PeopleList data={contacts} />
     </div>
+    
   );
 }
 const contacts = ["Example Question. Post your own above!"];
 
 ReactDOM.render(
-  <ContactManager data={contacts} />,
+  <div
+        class="container"
+        style={{
+          backgroundSize: "cover",
+          height: "100vh",
+          color: "#f5f5f5"
+        }}
+      >
+    <ContactManager data={contacts} />,
+  </div>,
   document.getElementById('root')
 );
 

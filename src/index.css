@@ -1,11 +1,12 @@
 h1, p {
-  font-family: Lato;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 ul {
   padding: 0;
   margin:10px 0 0 0;
 }
 li {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   list-style-type: none;
   padding: 10px;
   margin: 10px;
@@ -14,4 +15,7 @@ li {
 }
 form {
   margin: 10px;
+}
+.container {
+  background-image: url(./3000x3000-0x0+0+0_14560608.jpg);
 }
