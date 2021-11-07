@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/HackUMassXI/static/css/main.265e9c55.chunk.css",
-    "main.js": "/HackUMassXI/static/js/main.f29befa8.chunk.js",
-    "main.js.map": "/HackUMassXI/static/js/main.f29befa8.chunk.js.map",
+    "main.css": "/HackUMassXI/static/css/main.c27114c7.chunk.css",
+    "main.js": "/HackUMassXI/static/js/main.d6e7fa6f.chunk.js",
+    "main.js.map": "/HackUMassXI/static/js/main.d6e7fa6f.chunk.js.map",
     "runtime-main.js": "/HackUMassXI/static/js/runtime-main.912d1f39.js",
     "runtime-main.js.map": "/HackUMassXI/static/js/runtime-main.912d1f39.js.map",
     "static/js/2.1471217c.chunk.js": "/HackUMassXI/static/js/2.1471217c.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.3445c18c.chunk.js": "/HackUMassXI/static/js/3.3445c18c.chunk.js",
     "static/js/3.3445c18c.chunk.js.map": "/HackUMassXI/static/js/3.3445c18c.chunk.js.map",
     "index.html": "/HackUMassXI/index.html",
-    "static/css/main.265e9c55.chunk.css.map": "/HackUMassXI/static/css/main.265e9c55.chunk.css.map",
-    "static/js/2.1471217c.chunk.js.LICENSE.txt": "/HackUMassXI/static/js/2.1471217c.chunk.js.LICENSE.txt"
+    "static/css/main.c27114c7.chunk.css.map": "/HackUMassXI/static/css/main.c27114c7.chunk.css.map",
+    "static/js/2.1471217c.chunk.js.LICENSE.txt": "/HackUMassXI/static/js/2.1471217c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/HackUMassXI/static/media/3000x3000-0x0+0+0_14560608.4a865385.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.912d1f39.js",
     "static/js/2.1471217c.chunk.js",
-    "static/css/main.265e9c55.chunk.css",
-    "static/js/main.f29befa8.chunk.js"
+    "static/css/main.c27114c7.chunk.css",
+    "static/js/main.d6e7fa6f.chunk.js"
   ]
 }
